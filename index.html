@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MAISON ÉLISE — Haute Couture Paris</title>
+<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Bodoni+Moda:ital,opsz,wght@0,6..96,300;0,6..96,400;1,6..96,300;1,6..96,400&family=Lato:wght@200;300;400&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{ --ivory:#faf7f2; --black:#0a0806; --warm:#f0e8d8; --charcoal:#1a1614; --muted:#8a7e72; --border:#e0d8cc; --rose:#c4927a; --accent:#9a7c6e;}
+html{scroll-behavior:smooth;}
+body{font-family:'Lato',background:var(--ivory);color:var(--black);overflow-x:hidden;cursor:none;}
+#cursor-dot{width:6px;height:6px;background:var(--black);border-radius:50%;position:fixed;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);}
+nav{position:fixed;top:0;left:0;right:0;z-index:500;display:flex;justify-content:space-between;align-items:center;padding:2rem 4rem;mix-blend-mode:difference;}
+.nav-logo{font-family:'Bodoni Moda',serif;font-size:1.1rem;letter-spacing:.4em;text-transform:uppercase;color:white;}
+.marquee-strip{background:var(--black);color:var(--ivory);padding:.7rem 0;overflow:hidden;white-space:nowrap;}
+.hero{height:100vh;display:grid;grid-template-columns:1fr 1fr;}
+.hero-left{background:var(--charcoal);display:flex;flex-direction:column;justify-content:flex-end;padding:4rem;}
+.hero-title{font-family:'Bodoni Moda',serif;font-size:clamp(3rem,6vw,5rem);font-weight:300;color:var(--warm);}
+.hero-right{background:var(--warm);position:relative;display:flex;flex-direction:column;justify-content:space-between;padding:4rem;}
+footer{background:var(--black);color:rgba(240,232,216,0.5);padding:3rem 4rem;display:flex;justify-content:space-between;}
+</style></head><body><div id="cursor-dot"></div><nav><div class="nav-logo">Maison Élise</div></nav><section class="hero"><div class="hero-left"><div class="hero-season" style="font-size:.62rem;letter-spacing:.3em;text-transform:uppercase;color:rgba(240,232,216,0.5);margin-bottom:1rem;">Autumn Winter 2025 - Haute Couture</div><h1 class="hero-title">La <em style="font-style:italic;color:var(--rose);">Femme</em><br>É�ternelle</h1></div><div class="hero-right"><p style="font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);">Look 01 / 28</p><h3 style="font-family:'Bodoni Moda',serif;font-size:1.4rem;font-weight:300;">L'Obscur — Evening Gown</h3></div></ection><div class="marquee-strip"><div style="display:inline-block;animation:marquee 20s linear infinite;font-size:.7rem;letter-spacing:.3em;text-transform:uppercase;@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}"><span style="margin:0 3rem;opacity:.4;">PARIS</span><span style="margin:0 3rem;opacity:.4;">HAUTE COUTURE</span><span style="margin:0 3rem;opacity:.4;">MAISON ÉLISE</span><span style="margin:0 3rem;opacity:.4;">PARIS HAUTE COUTURE MASO9N ELISE</span></div></div><footer><div style="font-family:'Bodoni Moda',serif;font-size:1.2rem;letter-spacing:.4em;text-transform:uppercase;color:var(--rose);">Maison Élise</div><div style="font-size:.65rem;letter-spacing:.1em;">© 2025 Maison Élise. Paris.</div></footer><script>const d = document.getElementById('cursor-dot');document.addEventListener('mousemove',e=>{d.style.left=e.clientX+'px';d.style.top=e.clientY+'px'; });</script></body></html>
